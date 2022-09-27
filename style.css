@@ -1,0 +1,82 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+#all{
+   width: 1170px;
+   margin: 0 auto;
+   text-align: center;
+}
+input{
+   width: 200px;
+   height: 40px;
+   padding-left: 5px; 
+}
+#create-btn{
+   width: 209px;
+   height: 44px;
+   background-color: white;
+   border-radius: 2px;
+   border: 1px solid black;
+   cursor: pointer;
+   font-size: 15px;
+   margin-top: 10px;
+}
+#create-btn:hover{
+   font-weight: bold;
+   border: 2px solid black;
+}
+#create-btn:active{
+   border: 1px solid black;
+}
+#show{
+   margin-top: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+
+.tamagochi{
+   width: 300px;
+   height: 300px;
+   border: 1px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+.tamagochi_img{
+   width: 150px;
+   height: 230px;
+}
+.tamagochi_info{
+   padding-top: 80px;
+   width: 150px;
+   height: 50px;
+}
+.tamagochi_name{
+   margin-bottom: 10px;
+}
+.feed-btn{
+   width: 200px;
+   cursor: pointer;
+   margin: 0 auto 20px;
+}
+.tamagochi_health_input{
+   border: none;
+   background-color: white;
+   width: 70px;
+   height: 30px;
+   color: black;
+   font-size: 16px;
+   padding-left: 40px;
+}
+input {
+   outline:none;
+}
+
+.back{
+   background-color: rgba(255, 0, 0, 0.7);
+   display: none;
+   position:absolute;
+   width: 302px;
+   height: 302px;
+}
