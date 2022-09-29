@@ -25,7 +25,7 @@ class Tamagochi {
          container.querySelector(".back").style.display = "block";
          container.style.border = "none";
       }
-    }, 1000);
+    }, 150);
   }
 
   updateHealth() {
